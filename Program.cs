@@ -24,3 +24,5 @@ if (entradaNum){
     }
     Console.WriteLine("El numero invertido es:" + invertido);
 }
+
+//Calculadora V2
