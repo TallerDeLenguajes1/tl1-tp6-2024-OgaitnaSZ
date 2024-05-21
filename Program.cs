@@ -100,15 +100,15 @@ if (int.TryParse(buff1, out int num4)){
     }
 
     // Seno
-    double seno = Math.Sin(num1);
+    double seno = Math.Sin(num4);
     Console.WriteLine("Seno: "+seno);
 
     // Coseno
-    double coseno = Math.Cos(num1);
+    double coseno = Math.Cos(num4);
     Console.WriteLine("Coseno: "+ coseno);
 
     // Parte entera de un tipo float
-    int integerPart = (int)num1;
+    int integerPart = (int)num4;
     Console.WriteLine($"Parte entera: "+integerPart);
 
 }
