@@ -28,7 +28,7 @@ if (entradaNum){
 //Calculadora V2
 Console.WriteLine("Ingrese un numero:");
 string buff1= Console.ReadLine();
-if (int.TryParse(buff1, out num1)){
+if (int.TryParse(buff1, out int num1)){
     //Valor Absoluto
     double valorAbsoluto = Math.Abs(num1);
     Console.WriteLine("Valor absoluto: "+valorAbsoluto);
@@ -54,7 +54,7 @@ if (int.TryParse(buff1, out num1)){
     Console.WriteLine("Coseno: "+ coseno);
 
     // Parte entera de un tipo float
-        int integerPart = (int)num1;
-        Console.WriteLine($"Parte entera: "+integerPart);
+    int integerPart = (int)num1;
+    Console.WriteLine($"Parte entera: "+integerPart);
 
 }
