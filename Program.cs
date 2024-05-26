@@ -112,3 +112,5 @@ if (int.TryParse(buff1, out int num4)){
     Console.WriteLine($"Parte entera: "+integerPart);
 
 }
+
+//Manipulacion de cadenas
